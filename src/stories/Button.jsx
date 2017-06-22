@@ -1,13 +1,14 @@
 import React from 'react';
 import cx from 'classnames';
 import { themr } from 'react-css-themr';
+import { Icon } from './Icon.jsx';
 
 export const BUTTON = Symbol('BUTTON');
 
 export const RawButton = ({ theme, ...props }) => {
     return (
         <button {...props} className={theme.container}>
-            <span className={theme.icon}>I</span>
+            <Icon className={theme.icon} />
             {props.children}
         </button>
     )

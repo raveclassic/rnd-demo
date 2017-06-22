@@ -1,10 +1,29 @@
 .container {
-    padding: 20px;
-    border: 1px solid grey;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4ac54a;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+    outline: none;
+    position: relative;
+    transition: color .2s ease, background-color .2s ease, box-shadow .2s ease;
+}
+
+.container:hover {
+    background-color: rgba(74, 197, 74, 0.9);
+    box-shadow: 1px 1px 1px rgba(50, 80, 50, 0.17);
+}
+.container:active {
+    top: 1px;
+    background-color: #4ac54a;
 }
 
 .icon {
     margin-right: 5px;
     display: inline-block;
-    color: red;
+    height: 16px;
+    width: 16px;
 }

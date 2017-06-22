@@ -11,6 +11,7 @@ const buttonTheme = {
 
 export const RawForm = ({ theme }) => (
     <form className={theme.container}>
+        <legend className={theme.legend}>Form with Button</legend>
         <Button theme={theme.Submit}>Submit</Button>
     </form>
 );
