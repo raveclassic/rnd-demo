@@ -1,0 +1,10 @@
+.container {
+    padding: 20px;
+    border: 1px solid grey;
+}
+
+.icon {
+    margin-right: 5px;
+    display: inline-block;
+    color: red;
+}
